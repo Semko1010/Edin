@@ -7,7 +7,7 @@ const [showDiv, setShowDiv] = useState<boolean>(false)
 const [showDiv2, setShowDiv2] = useState<boolean>(false)
 const [showDiv3, setShowDiv3] = useState<boolean>(false)
 const [showDiv4, setShowDiv4] = useState<boolean>(false)
-const [showDiv5, setShowDiv5] = useState<boolean>(false)
+
 
 const showDivLeistung = ()=>{
     setShowDiv(!showDiv)
@@ -21,9 +21,7 @@ const showDivLeistung3 = ()=>{
 const showDivLeistung4 = ()=>{
     setShowDiv4(!showDiv4)
 }
-const showDivLeistung5 = ()=>{
-    setShowDiv5(!showDiv5)
-}
+
     return(
         <section className="sectionMain">
             
