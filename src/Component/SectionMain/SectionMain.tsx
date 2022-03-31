@@ -41,8 +41,8 @@ const showDivLeistung4 = ()=>{
                     mit Facharbeitern und professionellen Arbeitsgeräte schaffen wir jede Renovierungsarbeit.           
                      </p>
                 <div>
-                <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Movie App" data-front="Leistungen"> </a>
-                <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Movie App" data-front="Kontakt"> </a>
+                <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Leistungen" data-front="Leistungen"> </a>
+                <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
                 </div>
             </div>
     </Parallax>
@@ -55,13 +55,14 @@ const showDivLeistung4 = ()=>{
                
                 >
                     <div>
-                        <button 
+                        {/* <button 
                         className="btnShow"
-                        onClick={showDivLeistung}>Raumausstatter</button>
+                        onClick={showDivLeistung}>Raumausstattung</button> */}
+                         <a onClick={showDivLeistung} rel="noreferrer" className="movie-flip" data-back="Raumausstattung" data-front="Raumausstattung"> </a>
                         
                         <div className="leistungOneRaumausstatter"
                          style={{
-                            height: showDiv ? "250px" : "0px",
+                            height: showDiv ? "300px" : "0px",
                             opacity: showDiv ? "1" : "0",
                             // backgroundColor: showDiv ? "#a0d2eb": "white"
                         }}
@@ -71,16 +72,19 @@ const showDivLeistung4 = ()=>{
                                 opacity: showDiv ? "1" : "0",
                                 
                             }}
-                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p>
+                            >Raumaustattung ? Da sind sie b ei uns richtig mit viel Erfahrung und können statten wir ihr Haus oder Wohnung mit den Modernsten
+                            Ausstattungen aus
+                            </p>
                         </div>
                     </div>
                     <div>
-                    <button 
+                    {/* <button 
                         className="btnShow"
-                        onClick={showDivLeistung2}>Fliesenleger</button>
+                        onClick={showDivLeistung2}>Fliesen</button> */}
+                        <a onClick={showDivLeistung2} rel="noreferrer" className="movie-flip" data-back="Fliesen" data-front="Fliesen"> </a>
                         <div className="leistungOneFliesenleger"
                          style={{
-                            height: showDiv2 ? "250px" : "0px",
+                            height: showDiv2 ? "300px" : "0px",
                             opacity: showDiv2 ? "1" : "0",
                             backgroundColor: showDiv2 ? "rgba(123, 123, 123, 0.8)": "white"
                         }}
@@ -90,16 +94,17 @@ const showDivLeistung4 = ()=>{
                                 opacity: showDiv2 ? "1" : "0",
                                 
                             }}
-                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p>
+                            >Wir verlegen professionell Fliesen aller farben und formen.</p>
                         </div>
                     </div>
                     <div>
-                    <button 
+                    {/* <button 
                         className="btnShow"
-                        onClick={showDivLeistung3}>Parkettleger</button>
+                        onClick={showDivLeistung3}>Parkett</button> */}
+                        <a onClick={showDivLeistung3} rel="noreferrer" className="movie-flip" data-back="Parkett" data-front="Parkett"> </a>
                     <div className="leistungOneParkettleger"
                          style={{
-                            height: showDiv3 ? "250px" : "0px",
+                            height: showDiv3 ? "300px" : "0px",
                             opacity: showDiv3 ? "1" : "0",
                             backgroundColor: showDiv3 ? "rgba(123, 123, 123, 0.7)": "white"
                         }}
@@ -113,12 +118,13 @@ const showDivLeistung4 = ()=>{
                         </div>
                     </div>
                     <div>
-                    <button 
+                    {/* <button 
                         className="btnShow"
-                        onClick={showDivLeistung4}>Fenster,Türen...</button>
+                        onClick={showDivLeistung4}>Fenster,Türen...</button> */}
+                        <a onClick={showDivLeistung4} rel="noreferrer" className="movie-flip" data-back="Fenster,Türen" data-front="Fenster,Türen"> </a>
                     <div className="leistungOneFenster"
                          style={{
-                            height: showDiv4 ? "250px" : "0px",
+                            height: showDiv4 ? "300px" : "0px",
                             opacity: showDiv4 ? "1" : "0",
                             backgroundColor: showDiv4 ? "rgba(123, 123, 123, 0.8)": "white"
                         }}

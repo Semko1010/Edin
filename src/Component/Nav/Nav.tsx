@@ -11,7 +11,8 @@ const Nav =()=>{
             <h3>Hamidovic Edin</h3>
             </div>
             <ul>
-                <li>Leistungen</li>
+                
+                <li><a  href="#leistungen">Leistungen</a></li>
                 <li>Über uns</li>
                 <li>Kontakt</li>
             </ul>

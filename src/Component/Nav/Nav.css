@@ -26,6 +26,11 @@ main nav >div ul li{
    cursor: pointer;
    text-shadow: 0 0 10px black;
 }
+main nav >div ul li a{
+   color: white;
+   border:none;
+   outline:none;
+}
 
 main nav >div{
   
