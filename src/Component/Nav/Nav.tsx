@@ -14,7 +14,7 @@ const Nav =()=>{
                 
                 <li><a  href="#leistungen">Leistungen</a></li>
                 <li>Über uns</li>
-                <li>Kontakt</li>
+                <li><a  href="#footer">Kontakt</a></li>
             </ul>
             </div>
 

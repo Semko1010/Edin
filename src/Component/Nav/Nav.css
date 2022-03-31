@@ -26,6 +26,7 @@ main nav >div ul li{
    cursor: pointer;
    text-shadow: 0 0 10px black;
 }
+
 main nav >div ul li a{
    color: white;
    border:none;
@@ -33,7 +34,6 @@ main nav >div ul li a{
 }
 
 main nav >div{
-  
    display:flex;
    justify-content:space-between;
    align-items: center;
@@ -41,7 +41,7 @@ main nav >div{
 main nav >div div{
    display: flex;
    align-items:center;
-   padding: 10px 0 ;
+   
 }
 /*Seccond Div*/
 main nav >div div h3{
@@ -54,6 +54,7 @@ main nav >div div h3{
    letter-spacing: 5px;
    font-size: 2rem;
    text-shadow: 0 0 10px black;
+   height:10px
 }
 main nav >div div h3::before{
    content: "⌢";
@@ -62,8 +63,8 @@ main nav >div div h3::after{
    content: "⌣";
 }
 main nav img{
-    width:4%;
-    height:4%;
+    width:3%;
+    height:3%;
     margin-left:5vw;
     
 }
