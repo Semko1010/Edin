@@ -1,0 +1,64 @@
+
+/*First Div*/
+main {
+   position: relative;
+}
+main nav {
+   position: fixed;
+   top: 10px;
+   z-index: 999;
+   width:100vw;
+   background:linear-gradient(90deg,rgb(0, 0, 0,0.5),rgb(255, 255, 255,0.5));
+   
+}
+main nav >div ul{
+   
+   list-style:none;
+   display: flex;
+   margin-right: 10vw;
+}
+main nav >div ul li{
+   margin-left:50px;
+   font-weight:800;
+   font-family: 'IM Fell English SC', serif;
+   font-size: 1.6rem;
+   color:white;
+   cursor: pointer;
+   text-shadow: 0 0 10px black;
+}
+
+main nav >div{
+  
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+}
+main nav >div div{
+   display: flex;
+   align-items:center;
+   padding: 10px 0 ;
+}
+/*Seccond Div*/
+main nav >div div h3{
+   display: flex;
+   align-items:center;
+   color:white;
+   margin-left: 30px;
+   font-family: 'IM Fell English SC', serif;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   font-size: 2rem;
+   text-shadow: 0 0 10px black;
+}
+main nav >div div h3::before{
+   content: "⌢";
+}
+main nav >div div h3::after{
+   content: "⌣";
+}
+main nav img{
+    width:4%;
+    height:4%;
+    margin-left:5vw;
+    
+}
