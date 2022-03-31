@@ -53,12 +53,15 @@ const showDivLeistung5 = ()=>{
                
                 >
                     <div>
-                        <h3 onClick={showDivLeistung}>Raumausstatter</h3>
+                        <button 
+                        className="btnShow"
+                        onClick={showDivLeistung}>Raumausstatter</button>
+                        
                         <div className="leistungOne"
                          style={{
                             height: showDiv ? "200px" : "0px",
                             opacity: showDiv ? "1" : "0",
-                            backgroundColor: showDiv ? "gray": "white"
+                            backgroundColor: showDiv ? "rgba(123, 123, 123, 0.5)": "white"
                         }}
                         >
                             <p
@@ -70,14 +73,14 @@ const showDivLeistung5 = ()=>{
                         </div>
                     </div>
                     <div>
-                    <h3
-                    onClick={showDivLeistung2}
-                    >Fliesenleger</h3>
+                    <button 
+                        className="btnShow"
+                        onClick={showDivLeistung2}>Fliesenleger</button>
                         <div className="leistungOne"
                          style={{
                             height: showDiv2 ? "200px" : "0px",
                             opacity: showDiv2 ? "1" : "0",
-                            backgroundColor: showDiv2 ? "gray": "white"
+                            backgroundColor: showDiv2 ? "rgba(123, 123, 123, 0.8)": "white"
                         }}
                         >
                             <p
@@ -89,14 +92,14 @@ const showDivLeistung5 = ()=>{
                         </div>
                     </div>
                     <div>
-                    <h3
-                    onClick={showDivLeistung3}
-                    >Parkettleger</h3>
+                    <button 
+                        className="btnShow"
+                        onClick={showDivLeistung3}>Parkettleger</button>
                     <div className="leistungOne"
                          style={{
                             height: showDiv3 ? "200px" : "0px",
                             opacity: showDiv3 ? "1" : "0",
-                            backgroundColor: showDiv3 ? "gray": "white"
+                            backgroundColor: showDiv3 ? "rgba(123, 123, 123, 0.7)": "white"
                         }}
                         >
                             <p
@@ -108,14 +111,14 @@ const showDivLeistung5 = ()=>{
                         </div>
                     </div>
                     <div>
-                    <h3
-                    onClick={showDivLeistung4}
-                    >Fenster,Türen...</h3>
+                    <button 
+                        className="btnShow"
+                        onClick={showDivLeistung4}>Fenster,Türen...</button>
                     <div className="leistungOne"
                          style={{
                             height: showDiv4 ? "200px" : "0px",
                             opacity: showDiv4 ? "1" : "0",
-                            backgroundColor: showDiv4 ? "gray": "white"
+                            backgroundColor: showDiv4 ? "rgba(123, 123, 123, 0.8)": "white"
                         }}
                         >
                             <p
@@ -129,8 +132,7 @@ const showDivLeistung5 = ()=>{
                    
                 </div>
                 <div>
-                {/* <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip" data-back="Movie App" data-front="Mehr Erfahren"> </a>
-                <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Movie App" data-front="Kontakt"> </a> */}
+               
                 </div>
             </div>
     </Parallax>
