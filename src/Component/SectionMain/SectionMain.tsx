@@ -5,6 +5,9 @@ import {useState} from 'react';
 const SectionMain = () =>{
 const [showDiv, setShowDiv] = useState<boolean>(false)
 const [showDiv2, setShowDiv2] = useState<boolean>(false)
+const [showDiv3, setShowDiv3] = useState<boolean>(false)
+const [showDiv4, setShowDiv4] = useState<boolean>(false)
+const [showDiv5, setShowDiv5] = useState<boolean>(false)
 
 const showDivLeistung = ()=>{
     setShowDiv(!showDiv)
@@ -12,12 +15,23 @@ const showDivLeistung = ()=>{
 const showDivLeistung2 = ()=>{
     setShowDiv2(!showDiv2)
 }
+const showDivLeistung3 = ()=>{
+    setShowDiv3(!showDiv3)
+}
+const showDivLeistung4 = ()=>{
+    setShowDiv4(!showDiv4)
+}
+const showDivLeistung5 = ()=>{
+    setShowDiv5(!showDiv5)
+}
     return(
         <section className="sectionMain">
             
             
              <Parallax className="parallax" bgImage="/img/img6.jpg"  strength={800}>
+             <h1>Ihr Handwerker</h1>
              <div className="divFirstImg">
+                 
                 <h2>Ihr Wunsch ist unsere Leidenschaft</h2>
 
                 <p>Wir sind ein Unternehmen, das mit voller Hingabe die Wünsche der Kunden erfüllt.
@@ -25,7 +39,7 @@ const showDivLeistung2 = ()=>{
                     mit Facharbeitern und professionellen Arbeitsgeräte schaffen wir jede Renovierungsarbeit.           
                      </p>
                 <div>
-                <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip" data-back="Movie App" data-front="Mehr Erfahren"> </a>
+                <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Movie App" data-front="Leistungen"> </a>
                 <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Movie App" data-front="Kontakt"> </a>
                 </div>
             </div>
@@ -33,7 +47,9 @@ const showDivLeistung2 = ()=>{
              <Parallax className="parallax2" bgImage="/img/img2.jpg"  strength={800}>
              <div className="divSecondImg">
                 <h2>Unsere leistungen</h2>
-                <div className="leistungen"
+                <div 
+                id="leistungen"
+                className="leistungen"
                
                 >
                     <div>
@@ -56,7 +72,7 @@ const showDivLeistung2 = ()=>{
                     <div>
                     <h3
                     onClick={showDivLeistung2}
-                    >Raumausstatter</h3>
+                    >Fliesenleger</h3>
                         <div className="leistungOne"
                          style={{
                             height: showDiv2 ? "200px" : "0px",
@@ -73,56 +89,44 @@ const showDivLeistung2 = ()=>{
                         </div>
                     </div>
                     <div>
-                    <h3>Raumausstatter</h3>
+                    <h3
+                    onClick={showDivLeistung3}
+                    >Parkettleger</h3>
                     <div className="leistungOne"
                          style={{
-                            height: showDiv2 ? "200px" : "0px",
-                            opacity: showDiv2 ? "1" : "0",
-                            backgroundColor: showDiv2 ? "gray": "white"
+                            height: showDiv3 ? "200px" : "0px",
+                            opacity: showDiv3 ? "1" : "0",
+                            backgroundColor: showDiv3 ? "gray": "white"
                         }}
                         >
                             <p
                              style={{
-                                opacity: showDiv2 ? "1" : "0",
+                                opacity: showDiv3 ? "1" : "0",
                                 
                             }}
                             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p>
                         </div>
                     </div>
                     <div>
-                    <h3>Raumausstatter</h3>
+                    <h3
+                    onClick={showDivLeistung4}
+                    >Fenster,Türen...</h3>
                     <div className="leistungOne"
                          style={{
-                            height: showDiv2 ? "200px" : "0px",
-                            opacity: showDiv2 ? "1" : "0",
-                            backgroundColor: showDiv2 ? "gray": "white"
+                            height: showDiv4 ? "200px" : "0px",
+                            opacity: showDiv4 ? "1" : "0",
+                            backgroundColor: showDiv4 ? "gray": "white"
                         }}
                         >
                             <p
                             style={{
-                                opacity: showDiv2 ? "1" : "0",
+                                opacity: showDiv4 ? "1" : "0",
                                 
                             }}
                             >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p>
                         </div>
                     </div>
-                    <div>
-                    <h3>Raumausstatter</h3>
-                    <div className="leistungOne"
-                         style={{
-                            height: showDiv2 ? "200px" : "0px",
-                            opacity: showDiv2 ? "1" : "0",
-                            backgroundColor: showDiv2 ? "gray": "white"
-                        }}
-                        >
-                            <p
-                             style={{
-                                opacity: showDiv2 ? "1" : "0",
-                                
-                            }}
-                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p>
-                        </div>
-                    </div>
+                   
                 </div>
                 <div>
                 {/* <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip" data-back="Movie App" data-front="Mehr Erfahren"> </a>

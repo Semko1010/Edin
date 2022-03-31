@@ -11,18 +11,29 @@
     height:100vh;
     border-top: 20px solid gray;
 }
+h1{
+    color:white;
+    font-size: 8rem;
+    text-align: center;
+    margin-top:20vh;
+    font-family: 'IM Fell English SC', serif;
+    text-shadow: 0 0 10px black;
+    letter-spacing: 30px;
+    
+}
 /*divFirstImg*/
 
 .divFirstImg{
-    margin:30vh 0 0 10vw;
+    margin:20vh auto 0 auto;
     background:linear-gradient(90deg,rgb(0, 0, 0,0.8),rgb(255, 255, 255,0.1));
     width:55vw;
-    border-radius: 50px;
+    height:35vh;
+    border-radius: 20px;
     padding:15px 30px;
     text-align: center;
 }
 .divFirstImg  h2{
-    color: white;
+    color: rgb(196, 196, 196);
    text-transform: uppercase;
     font-size: 3.5rem;
     text-shadow: 0 0 20px black;
@@ -30,13 +41,11 @@
 }
 
 .divFirstImg  p{
-    color: white;
-    
-    font-size: 2rem;
+    color: rgb(196, 196, 196);
+    font-size: 1.6rem;
     font-weight: 600;
     letter-spacing:2px;
-    -webkit-text-stroke: 1px black;
-  -webkit-text-fill-color: white;
+ 
  
    
     margin:0 0 50px 0;
@@ -44,7 +53,7 @@
 }
 /*divFirstImg*/
 .divSecondImg  h2{
-    color: white;
+    color: rgb(196, 196, 196);
     font-family: verdana, arial, helvetica;
     font-size: 5rem;
     text-shadow: 0 0 20px black;
@@ -64,7 +73,7 @@
     margin:30vh auto 0 auto;
     background-color:rgb(0, 0, 0,0.4);
     width:60vw;
-    border-radius: 50px;
+    border-radius: 20px;
     padding:15px 30px
 }
 /*leistung*/
@@ -77,6 +86,18 @@
     color: white;
     font-size: 2rem;
     cursor: pointer;
+    background-color:rgba(99, 99, 99, 0.7);
+    padding:5px 0;
+    border-radius: 5px;
+    transition: all 0.5s
+}
+.leistungen h3:hover{
+    color: white;
+    font-size: 2.1rem;
+    cursor: pointer;
+    background-color:rgba(123, 123, 123, 0.7);
+    border-radius: 5px;
+    transform: rotate(10deg)
 }
 .leistungen div:nth-of-type(1){
     transition: 1s;
