@@ -61,7 +61,7 @@ const showDivLeistung4 = ()=>{
                 >
                     <div>
                         
-                         <a onClick={showDivLeistung} rel="noreferrer" className="movie-flip" data-back="Raumausstattung" data-front="Raumausstattung"> </a>
+                         <a onClick={showDivLeistung} rel="noreferrer" href="#test" className="movie-flip" data-back="Raumausstattung" data-front="Raumausstattung"> </a>
                         
                         <div className="leistungOneRaumausstatter"
                          style={{
@@ -82,7 +82,7 @@ const showDivLeistung4 = ()=>{
                     </div>
                     <div>
                   
-                        <a onClick={showDivLeistung2} rel="noreferrer" className="movie-flip" data-back="Fliesen" data-front="Fliesen"> </a>
+                        <a onClick={showDivLeistung2} href="#test" rel="noreferrer" className="movie-flip" data-back="Fliesen" data-front="Fliesen"> </a>
                         <div className="leistungOneFliesenleger"
                          style={{
                             height: showDiv2 ? "300px" : "0px",
@@ -100,7 +100,7 @@ const showDivLeistung4 = ()=>{
                     </div>
                     <div>
                  
-                        <a onClick={showDivLeistung3} rel="noreferrer" className="movie-flip" data-back="Parkett" data-front="Parkett"> </a>
+                        <a onClick={showDivLeistung3} href="#test" rel="noreferrer" className="movie-flip" data-back="Parkett" data-front="Parkett"> </a>
                     <div className="leistungOneParkettleger"
                          style={{
                             height: showDiv3 ? "300px" : "0px",
@@ -118,7 +118,7 @@ const showDivLeistung4 = ()=>{
                     </div>
                     <div>
               
-                        <a onClick={showDivLeistung4} rel="noreferrer" className="movie-flip" data-back="Fenster,Türen" data-front="Fenster,Türen"> </a>
+                        <a onClick={showDivLeistung4} href="#test" rel="noreferrer" className="movie-flip" data-back="Fenster,Türen" data-front="Fenster,Türen"> </a>
                     <div className="leistungOneFenster"
                          style={{
                             height: showDiv4 ? "300px" : "0px",
