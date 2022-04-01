@@ -9,7 +9,8 @@ const Footer = () =>{
             <input placeholder="Name" type="text" name="" id="" />
             <input placeholder="Email" type="text" name="" id="" />
             <input  placeholder="Nachricht" type="text" name="" id="" />
-            <a href=""  rel="noreferrer" className="Contact" data-back="Senden" data-front="Email"> </a>
+            <button className="Contact" data-back="Senden" data-front="Email"></button>
+            {/* <a href=""  rel="noreferrer" className="Contact" data-back="Senden" data-front="Email"> </a> */}
            
 
             </form>
