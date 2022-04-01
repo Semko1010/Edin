@@ -25,12 +25,13 @@ const showDivLeistung4 = ()=>{
     return(
         <section className="sectionMain">
             
-            
-             <Parallax className="parallax" bgImage="/img/img6.jpg"  strength={800}>
-             <h1>Ihr Handwerker</h1>
+            <div id="title">
+             <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={800}>
+             <h1 >Ihr Handwerker</h1>
              
-    </Parallax>
-             <Parallax className="parallax1" bgImage="/img/img7.jpg"  strength={800}>
+            </Parallax>
+            </div>
+             <Parallax  className="parallax1" bgImage="/img/img7.jpg"  strength={800}>
              
              <div className="divFirstImg">
                  
@@ -39,25 +40,27 @@ const showDivLeistung4 = ()=>{
                 <p>Wir sind ein Unternehmen, das mit voller Hingabe die Wünsche der Kunden erfüllt.
                     Unser Können und jahrelange Erfahrung hat stets unter Beweis gestellt, was alles möglich ist,
                     mit Facharbeitern und professionellen Arbeitsgeräte schaffen wir jede Renovierungsarbeit.           
-                     </p>
+                </p>
                 <div>
                 <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Leistungen" data-front="Leistungen"> </a>
                 <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
                 </div>
             </div>
     </Parallax>
+
+    <div id="leistungen">
              <Parallax className="parallax2" bgImage="/img/img2.jpg"  strength={800}>
-             <div className="divSecondImg">
+             <div 
+             
+             className="divSecondImg">
                 <h2>Unsere leistungen</h2>
                 <div 
-                id="leistungen"
+                
                 className="leistungen"
                
                 >
                     <div>
-                        {/* <button 
-                        className="btnShow"
-                        onClick={showDivLeistung}>Raumausstattung</button> */}
+                        
                          <a onClick={showDivLeistung} rel="noreferrer" className="movie-flip" data-back="Raumausstattung" data-front="Raumausstattung"> </a>
                         
                         <div className="leistungOneRaumausstatter"
@@ -78,9 +81,7 @@ const showDivLeistung4 = ()=>{
                         </div>
                     </div>
                     <div>
-                    {/* <button 
-                        className="btnShow"
-                        onClick={showDivLeistung2}>Fliesen</button> */}
+                  
                         <a onClick={showDivLeistung2} rel="noreferrer" className="movie-flip" data-back="Fliesen" data-front="Fliesen"> </a>
                         <div className="leistungOneFliesenleger"
                          style={{
@@ -98,9 +99,7 @@ const showDivLeistung4 = ()=>{
                         </div>
                     </div>
                     <div>
-                    {/* <button 
-                        className="btnShow"
-                        onClick={showDivLeistung3}>Parkett</button> */}
+                 
                         <a onClick={showDivLeistung3} rel="noreferrer" className="movie-flip" data-back="Parkett" data-front="Parkett"> </a>
                     <div className="leistungOneParkettleger"
                          style={{
@@ -118,9 +117,7 @@ const showDivLeistung4 = ()=>{
                         </div>
                     </div>
                     <div>
-                    {/* <button 
-                        className="btnShow"
-                        onClick={showDivLeistung4}>Fenster,Türen...</button> */}
+              
                         <a onClick={showDivLeistung4} rel="noreferrer" className="movie-flip" data-back="Fenster,Türen" data-front="Fenster,Türen"> </a>
                     <div className="leistungOneFenster"
                          style={{
@@ -144,7 +141,8 @@ const showDivLeistung4 = ()=>{
                 </div>
             </div>
     </Parallax>
-    
+
+    </div>
         </section>
     )
 }

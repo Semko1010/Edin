@@ -4,7 +4,7 @@ const Nav =()=>{
 
     return(
 
-        <nav>
+        <nav id="nav">
             <div>
                 <div>
             <img src="/img/logo2.png" alt="" />
@@ -12,8 +12,8 @@ const Nav =()=>{
             </div>
             <ul>
                 
+                <li><a  href="#title">Home</a></li>
                 <li><a  href="#leistungen">Leistungen</a></li>
-                <li>Über uns</li>
                 <li><a  href="#footer">Kontakt</a></li>
             </ul>
             </div>
