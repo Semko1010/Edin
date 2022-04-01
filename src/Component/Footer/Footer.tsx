@@ -36,8 +36,8 @@ const Footer = () =>{
             <div>
                 <h2>Leistungen</h2>
                 <p>Raumaustattung/ Fenster,Türen</p>
-                <p>Fliesen</p>
-                <p>Parkett</p>
+                <p>Fliesen/Parkett</p>
+                
                 
             </div>
 
