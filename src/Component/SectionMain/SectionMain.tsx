@@ -43,7 +43,7 @@ const showDivLeistung4 = ()=>{
                 </p>
                 <div>
                 <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Leistungen" data-front="Leistungen"> </a>
-                <a href="" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
+                <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
                 </div>
             </div>
     </Parallax>
