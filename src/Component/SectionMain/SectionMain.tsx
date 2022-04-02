@@ -71,17 +71,10 @@ const showDivLeistung5 = ()=>{
                          style={{
                             height: showDiv ? "300px" : "0px",
                             opacity: showDiv ? "1" : "0",
-                            // backgroundColor: showDiv ? "#a0d2eb": "white"
+                         
                         }}
                         >
-                            {/* <p
-                             style={{
-                                opacity: showDiv ? "1" : "0",
-                                
-                            }}
-                            >Raumaustattung ? Da sind sie b ei uns richtig mit viel Erfahrung und können statten wir ihr Haus oder Wohnung mit den Modernsten
-                            Ausstattungen aus
-                            </p> */}
+                       
                         </div>
                     </div>
                     <div>
@@ -92,17 +85,10 @@ const showDivLeistung5 = ()=>{
                          style={{
                             height: showDiv5 ? "300px" : "0px",
                             opacity: showDiv5 ? "1" : "0",
-                            // backgroundColor: showDiv ? "#a0d2eb": "white"
+                           
                         }}
                         >
-                            {/* <p
-                             style={{
-                                opacity: showDiv ? "1" : "0",
-                                
-                            }}
-                            >Raumaustattung ? Da sind sie b ei uns richtig mit viel Erfahrung und können statten wir ihr Haus oder Wohnung mit den Modernsten
-                            Ausstattungen aus
-                            </p> */}
+                           
                         </div>
                     </div>
                     <div>
@@ -115,12 +101,7 @@ const showDivLeistung5 = ()=>{
                             backgroundColor: showDiv2 ? "rgba(123, 123, 123, 0.8)": "white"
                         }}
                         >
-                            {/* <p
-                             style={{
-                                opacity: showDiv2 ? "1" : "0",
-                                
-                            }}
-                            >Wir verlegen professionell Fliesen aller farben und formen.</p> */}
+                          
                         </div>
                     </div>
                     <div>
@@ -133,12 +114,7 @@ const showDivLeistung5 = ()=>{
                             backgroundColor: showDiv3 ? "rgba(123, 123, 123, 0.7)": "white"
                         }}
                         >
-                            {/* <p
-                             style={{
-                                opacity: showDiv3 ? "1" : "0",
-                                
-                            }}
-                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p> */}
+                            
                         </div>
                     </div>
                     <div>
@@ -151,20 +127,17 @@ const showDivLeistung5 = ()=>{
                             backgroundColor: showDiv4 ? "rgba(123, 123, 123, 0.8)": "white"
                         }}
                         >
-                            {/* <p
-                            style={{
-                                opacity: showDiv4 ? "1" : "0",
-                                
-                            }}
-                            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, adipisci.</p> */}
+                         
                         </div>
                     </div>
                    
                 </div>
                 <div>
-               
+              
                 </div>
+               
             </div>
+          
     </Parallax>
 
     </div>
