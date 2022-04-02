@@ -7,6 +7,7 @@ const [showDiv, setShowDiv] = useState<boolean>(false)
 const [showDiv2, setShowDiv2] = useState<boolean>(false)
 const [showDiv3, setShowDiv3] = useState<boolean>(false)
 const [showDiv4, setShowDiv4] = useState<boolean>(false)
+const [showDiv5, setShowDiv5] = useState<boolean>(false)
 
 
 const showDivLeistung = ()=>{
@@ -20,6 +21,9 @@ const showDivLeistung3 = ()=>{
 }
 const showDivLeistung4 = ()=>{
     setShowDiv4(!showDiv4)
+}
+const showDivLeistung5 = ()=>{
+    setShowDiv5(!showDiv5)
 }
 
     return(
@@ -43,7 +47,7 @@ const showDivLeistung4 = ()=>{
                 </p>
                 <div>
                 <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Leistungen" data-front="Leistungen"> </a>
-                <a href="https://the-movie-app-2021.netlify.app/" target="_blank" rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
+                <a href="#footer"  rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
                 </div>
             </div>
     </Parallax>
@@ -67,6 +71,27 @@ const showDivLeistung4 = ()=>{
                          style={{
                             height: showDiv ? "300px" : "0px",
                             opacity: showDiv ? "1" : "0",
+                            // backgroundColor: showDiv ? "#a0d2eb": "white"
+                        }}
+                        >
+                            {/* <p
+                             style={{
+                                opacity: showDiv ? "1" : "0",
+                                
+                            }}
+                            >Raumaustattung ? Da sind sie b ei uns richtig mit viel Erfahrung und können statten wir ihr Haus oder Wohnung mit den Modernsten
+                            Ausstattungen aus
+                            </p> */}
+                        </div>
+                    </div>
+                    <div>
+                        
+                         <a onClick={showDivLeistung5} rel="noreferrer" href="#test" className="movie-flip" data-back="Tapeten" data-front="Tapeten"> </a>
+                        
+                        <div className="leistungOneTapeten"
+                         style={{
+                            height: showDiv5 ? "300px" : "0px",
+                            opacity: showDiv5 ? "1" : "0",
                             // backgroundColor: showDiv ? "#a0d2eb": "white"
                         }}
                         >
