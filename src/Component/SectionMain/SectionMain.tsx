@@ -1,6 +1,8 @@
 import "./SectionMain.css"
 import { Parallax } from 'react-parallax';
-import {useState} from 'react';
+
+
+import {useState,useEffect} from 'react';
 
 const SectionMain = () =>{
 const [showDiv, setShowDiv] = useState<boolean>(false)
@@ -8,7 +10,7 @@ const [showDiv2, setShowDiv2] = useState<boolean>(false)
 const [showDiv3, setShowDiv3] = useState<boolean>(false)
 const [showDiv4, setShowDiv4] = useState<boolean>(false)
 const [showDiv5, setShowDiv5] = useState<boolean>(false)
-
+const [scroll,setScroll] = useState(0)
 
 const showDivLeistung = ()=>{
     setShowDiv(!showDiv)
@@ -26,15 +28,29 @@ const showDivLeistung5 = ()=>{
     setShowDiv5(!showDiv5)
 }
 
+    
+                useEffect(() => {
+                    const handleScroll1 = () =>{
+                       
+                        setScroll(window.pageYOffset)
+                       
+                        }
+                        window.addEventListener("scroll", handleScroll1)
+                        console.log(window.pageYOffset);
+                  });
+
     return(
         <section className="sectionMain">
             
-            <div id="title">
-             <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={800}>
+            <div id="title" className="parallax">
+            <img style={{transform: `translateY(${ scroll * 0.5}px)`}} src="/img/img6.jpg" alt="" />
+             {/* <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={800}> */}
+            
              <h1 >Ihr Handwerker</h1>
-             
-            </Parallax>
-            </div>
+            
+            
+            {/* </Parallax> */}
+            </div >
              <Parallax  className="parallax1" bgImage="/img/img7.jpg"  strength={800}>
              
              <div className="divFirstImg">
@@ -65,7 +81,7 @@ const showDivLeistung5 = ()=>{
                 >
                     <div>
                         
-                         <a onClick={showDivLeistung} rel="noreferrer" href="#test" className="movie-flip" data-back="Raumausstattung" data-front="Raumausstattung"> </a>
+                         <a onClick={showDivLeistung} rel="noreferrer" href="#Raumausstattung" className="movie-flip" data-back="Raumausstattung" data-front="Raumausstattung"> </a>
                         
                         <div className="leistungOneRaumausstatter"
                          style={{
@@ -79,7 +95,7 @@ const showDivLeistung5 = ()=>{
                     </div>
                     <div>
                         
-                         <a onClick={showDivLeistung5} rel="noreferrer" href="#test" className="movie-flip" data-back="Tapeten" data-front="Tapeten"> </a>
+                         <a onClick={showDivLeistung5} rel="noreferrer" href="#Tapeten" className="movie-flip" data-back="Tapeten" data-front="Tapeten"> </a>
                         
                         <div className="leistungOneTapeten"
                          style={{
@@ -93,7 +109,7 @@ const showDivLeistung5 = ()=>{
                     </div>
                     <div>
                   
-                        <a onClick={showDivLeistung2} href="#test" rel="noreferrer" className="movie-flip" data-back="Fliesen" data-front="Fliesen"> </a>
+                        <a onClick={showDivLeistung2} href="#Fliesen" rel="noreferrer" className="movie-flip" data-back="Fliesen" data-front="Fliesen"> </a>
                         <div className="leistungOneFliesenleger"
                          style={{
                             height: showDiv2 ? "300px" : "0px",
@@ -106,7 +122,7 @@ const showDivLeistung5 = ()=>{
                     </div>
                     <div>
                  
-                        <a onClick={showDivLeistung3} href="#test" rel="noreferrer" className="movie-flip" data-back="Parkett" data-front="Parkett"> </a>
+                        <a onClick={showDivLeistung3} href="#Parkett" rel="noreferrer" className="movie-flip" data-back="Parkett" data-front="Parkett"> </a>
                     <div className="leistungOneParkettleger"
                          style={{
                             height: showDiv3 ? "300px" : "0px",
@@ -119,7 +135,7 @@ const showDivLeistung5 = ()=>{
                     </div>
                     <div>
               
-                        <a onClick={showDivLeistung4} href="#test" rel="noreferrer" className="movie-flip" data-back="Fenster,Türen" data-front="Fenster,Türen"> </a>
+                        <a onClick={showDivLeistung4} href="#Fenster,Türen" rel="noreferrer" className="movie-flip" data-back="Fenster,Türen" data-front="Fenster,Türen"> </a>
                     <div className="leistungOneFenster"
                          style={{
                             height: showDiv4 ? "300px" : "0px",
