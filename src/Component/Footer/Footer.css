@@ -1,5 +1,6 @@
 @media (max-width: 2560px) {
     .parallax3{
+        position: relative;
         height:100vh;
         border-top: 10px solid rgb(201, 201, 201);
         
@@ -12,6 +13,9 @@
        text-transform: uppercase;    
        font-family: verdana, arial, helvetica;
         text-shadow: 0 0 10px black;  
+    }
+    .footerDiv{
+        position: absolute;
     }
     .form{
         display: flex;

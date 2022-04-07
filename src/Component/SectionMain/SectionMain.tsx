@@ -34,16 +34,16 @@ const showDivLeistung5 = ()=>{
     return(
         <section className="sectionMain">
             
-            <div id="title" className="parallax">
-          
-             <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={800}>
             
+          
+             <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={400}>
+             <div id="title" className="zeroDiv">
              <h1 >Ihr Handwerker</h1>
             
-            
+             </div >
             </Parallax>
-            </div >
-             <Parallax  className="parallax1" bgImage="/img/img7.jpg"  strength={800}>
+            
+             <Parallax  className="parallax1" bgImage="/img/img7.jpg"  strength={400}>
              
              <div className="divFirstImg">
                  
@@ -60,8 +60,9 @@ const showDivLeistung5 = ()=>{
             </div>
     </Parallax>
 
-    <div id="leistungen">
-             <Parallax className="parallax2" bgImage="/img/img2.jpg"  strength={800}>
+   
+             <Parallax className="parallax2" bgImage="/img/img2.jpg"  strength={400}>
+             <div id="leistungen">
              <div 
              
              className="divSecondImg">
@@ -145,10 +146,10 @@ const showDivLeistung5 = ()=>{
                 </div>
                
             </div>
-          
+            </div>
     </Parallax>
 
-    </div>
+    
         </section>
     )
 }

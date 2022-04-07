@@ -4,7 +4,8 @@ const Footer = () =>{
 
     return(
 
-<Parallax className="parallax3" bgImage="/img/img11.jpg"  strength={800}>
+<Parallax className="parallax3" bgImage="/img/img11.jpg"  strength={400}>
+    <div className="footerDiv">
             <h4>Kontakt</h4>
              <form id="footer" className="form" action="">
             <input placeholder="Name" type="text" name="" id="" />
@@ -45,6 +46,7 @@ const Footer = () =>{
 
 
         </footer>
+        </div>
     </Parallax>
 
     )
