@@ -2,7 +2,7 @@ import "./SectionMain.css"
 import { Parallax } from 'react-parallax';
 
 
-import {useState,useEffect} from 'react';
+import {useState} from 'react';
 
 const SectionMain = () =>{
 const [showDiv, setShowDiv] = useState<boolean>(false)
@@ -10,7 +10,7 @@ const [showDiv2, setShowDiv2] = useState<boolean>(false)
 const [showDiv3, setShowDiv3] = useState<boolean>(false)
 const [showDiv4, setShowDiv4] = useState<boolean>(false)
 const [showDiv5, setShowDiv5] = useState<boolean>(false)
-const [scroll,setScroll] = useState(0)
+
 
 const showDivLeistung = ()=>{
     setShowDiv(!showDiv)
@@ -29,27 +29,19 @@ const showDivLeistung5 = ()=>{
 }
 
     
-                useEffect(() => {
-                    const handleScroll1 = () =>{
-                       
-                        setScroll(window.pageYOffset)
-                       
-                        }
-                        window.addEventListener("scroll", handleScroll1)
-                        console.log(window.pageYOffset);
-                  });
+                
 
     return(
         <section className="sectionMain">
             
             <div id="title" className="parallax">
-            <img style={{transform: `translateY(${ scroll * 0.5}px)`}} src="/img/img6.jpg" alt="" />
-             {/* <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={800}> */}
+          
+             <Parallax  className="parallax" bgImage="/img/img6.jpg"  strength={800}>
             
              <h1 >Ihr Handwerker</h1>
             
             
-            {/* </Parallax> */}
+            </Parallax>
             </div >
              <Parallax  className="parallax1" bgImage="/img/img7.jpg"  strength={800}>
              
