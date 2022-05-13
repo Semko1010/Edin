@@ -19,10 +19,7 @@ const Footer = () =>{
            
 
          <footer>
-            <div>
-                <h2>Edin Hamidovic</h2>
-                <p>Ihr Handwerker für jede Arbeit <br/> founded and designed by <span>Ruby Bacanovic</span></p>
-            </div>
+           
             <div>
                 <h2>Kontakt</h2>
                 <p className="email">Email: edin1975@gmail.com</p>
