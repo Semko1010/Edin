@@ -22,8 +22,8 @@ const Footer = () =>{
            
             <div>
                 <h2>Kontakt</h2>
-                <p className="email">Email: edin1975@gmail.com</p>
-                <p className="email">Telefon: 0176554455545</p>
+                <p className="email">Email: hamidovicedin@live.de</p>
+                <p className="email">Telefon: 01742732640</p>
                 
             </div>
 

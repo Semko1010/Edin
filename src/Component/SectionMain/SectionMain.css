@@ -719,27 +719,31 @@
               width:70vw;
               opacity: 1 !important;   
               height: 300px !important;
+              margin-right: 20px;
           }
           
           .leistungen div:nth-of-type(2){
               transition: 1s;
               width:70vw;
-              
+              margin-right: 20px;
           }
           
           .leistungen div:nth-of-type(3){
               transition: 1s;
-              width:70vw
+              width:70vw;
+              margin-right: 20px;
           }
           
           .leistungen div:nth-of-type(4){
               transition: 1s;
-              width:70vw
+              width:70vw;
+              margin-right: 20px;
           }
           
           .leistungen div:nth-of-type(5){
               transition: 1s;
               width:70vw;
+              margin-right: 20px;
           }
           
           
