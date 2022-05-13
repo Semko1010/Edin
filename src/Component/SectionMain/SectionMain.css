@@ -577,12 +577,12 @@
     }
     h1{
         color:white;
-        font-size: 1.1rem;
+        font-size: 2.5rem;
         text-align: center;
         margin-top:25vh;
         font-family: 'IM Fell English SC', serif;
         text-shadow: 0 0 10px black;
-        letter-spacing: 30px;
+        letter-spacing: 5px;
         border-bottom: 2px solid white;
         border-top: 2px solid white;
     }
@@ -796,4 +796,26 @@
               transform: translateY(0) rotateX(0);
               
           }
+  }
+  @media  (max-width: 360px) {
+
+
+    .divFirstImg{
+        margin:10vh auto 0 auto;
+        background:linear-gradient(90deg,rgb(0, 0, 0,0.8),rgb(255, 255, 255,0.1));
+        width:75vw;
+        height:45vh;
+        border-radius: 20px;
+        padding:15px 30px;
+        text-align: center;
+    }
+    .divSecondImg{
+        text-align: center;
+        margin:5vh auto 0 auto;
+        background-color:rgb(0, 0, 0,0.5);
+        width:75vw;
+        height:60vh;
+        border-radius:  30px;
+        padding:15px 30px
+    }
   }
