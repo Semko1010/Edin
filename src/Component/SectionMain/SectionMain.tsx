@@ -54,7 +54,7 @@ const showDivLeistung5 = ()=>{
                     mit Facharbeitern und professionellen Arbeitsgeräte schaffen wir jede Renovierungsarbeit.           
                 </p>
                 <div>
-                <a href="#leistungen"  rel="noreferrer" className="movie-flip" data-back="Leistungen" data-front="Leistungen"> </a>
+                <a href="#leistungen"  rel="noreferrer" className="movie-flip1" data-back="Leistungen" data-front="Leistungen"> </a>
                 <a href="#footer"  rel="noreferrer" className="movie-flip1" data-back="Kontakt" data-front="Kontakt"> </a>
                 </div>
             </div>

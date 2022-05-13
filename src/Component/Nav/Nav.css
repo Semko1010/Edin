@@ -100,3 +100,35 @@ main nav img{
        
    }
 }
+@media  (max-width: 375px) {
+
+   main nav >div ul li{
+      margin-left:50px;
+      font-weight:800;
+      font-family: 'IM Fell English SC', serif;
+      font-size: 1.3rem;
+      color:white;
+      cursor: pointer;
+      text-shadow: 0 0 10px black;
+   }
+
+   main nav >div div h3{
+      display: flex;
+      align-items:center;
+      color:white;
+      margin-left: 30px;
+      font-family: 'IM Fell English SC', serif;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 1rem;
+      text-shadow: 0 0 10px black;
+      height:10px
+   }
+ 
+   main nav img{
+       width:10%;
+       height:10%;
+       margin-left:5vw;
+       
+   }
+}

@@ -559,3 +559,241 @@
         border: 1px solid black; 
         }
   }
+  @media  (max-width: 375px) {
+    .parallax{
+        
+        height:55vh;
+       
+    }
+    .parallax1{
+        
+        height:60vh;
+        border-top: 10px solid rgb(201, 201, 201);
+    }
+    .parallax2{
+        
+        height:70vh;
+        border-top: 10px solid rgb(201, 201, 201);
+    }
+    h1{
+        color:white;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-top:25vh;
+        font-family: 'IM Fell English SC', serif;
+        text-shadow: 0 0 10px black;
+        letter-spacing: 30px;
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+    }
+
+    /*divFirstImg*/
+    .divFirstImg{
+        margin:10vh auto 0 auto;
+        background:linear-gradient(90deg,rgb(0, 0, 0,0.8),rgb(255, 255, 255,0.1));
+        width:75vw;
+        height:40vh;
+        border-radius: 20px;
+        padding:15px 30px;
+        text-align: center;
+    }
+    .divFirstImg  h2{
+        color: rgb(196, 196, 196);
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        text-shadow: 0 0 20px black;
+        font-family: verdana, arial, helvetica;
+    }
+    
+    .divFirstImg  p{
+        color: rgb(255, 255, 255);
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing:2px;
+        margin:0 0 50px 0;
+        font-family: verdana, arial, helvetica;
+    }
+    .movie-flip1 {
+        opacity: 1;
+        outline: 0;
+        color: #fff;
+        line-height: 40px;
+        position: relative;
+        text-align: center;
+        letter-spacing: 1px;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 00px 0 0 5px;
+        width: 35vw;
+    }
+    .movie-flip1:hover:after {
+        opacity: 1;
+        transform: translateY(0) rotateX(0);
+    }
+    .movie-flip1:hover:before {
+        opacity: 0;
+        transform: translateY(50%) rotateX(90deg);
+    }
+    .movie-flip1:after {
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        color: #adadaf;
+        display: block;
+        transition: 0.5s;
+        position: absolute;
+        background: #323237;
+        content: attr(data-back);
+        transform: translateY(-50%) rotateX(90deg);
+    }
+    .movie-flip1:before {
+        
+        top: 0;
+        left: 0;
+        opacity: 1;
+        color: #323237;
+        display: block;
+        line-height: 40px;
+        transition: 0.5s;
+        position: relative;
+        background: #adadaf;
+        content: attr(data-front);
+        transform: translateY(0) rotateX(0);
+    }
+    .movie-flip {
+        opacity: 1;
+        outline: 0;
+        color: #fff;
+        line-height: 40px;
+        position: relative;
+        text-align: center;
+        letter-spacing: 1px;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 10px 0 30px 0;
+        width:14vw;
+        cursor: pointer;
+        font-size: 12px;
+    
+    }
+    .leistungOneFenster{
+        opacity: 0;
+        height:0;
+        border-radius: 5px;
+        background-image: url("/public/img/fenster.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid black; 
+        }
+
+        .divSecondImg  h2{
+            font-size: 2rem;
+           
+          }
+          
+          
+          .divSecondImg{
+              text-align: center;
+              margin:5vh auto 0 auto;
+              background-color:rgb(0, 0, 0,0.5);
+              width:75vw;
+              height:55vh;
+              border-radius:  30px;
+              padding:15px 30px
+          }
+          
+          /*leistung*/
+          .leistungen {
+              display: flex;
+              justify-content: space-between;
+              flex-direction: row;
+              height:45vh;
+              overflow: auto;
+             white-space: nowrap;
+          }
+          .leistungen div:nth-of-type(1){
+              transition: 1s;
+              width:70vw;
+              opacity: 1 !important;   
+              height: 300px !important;
+          }
+          
+          .leistungen div:nth-of-type(2){
+              transition: 1s;
+              width:70vw;
+              
+          }
+          
+          .leistungen div:nth-of-type(3){
+              transition: 1s;
+              width:70vw
+          }
+          
+          .leistungen div:nth-of-type(4){
+              transition: 1s;
+              width:70vw
+          }
+          
+          .leistungen div:nth-of-type(5){
+              transition: 1s;
+              width:70vw;
+          }
+          
+          
+          .movie-flip {
+              opacity: 1;
+              outline: 0;
+              color: #fff;
+              line-height: 40px;
+              position: relative;
+              text-align: center;
+              letter-spacing: 1px;
+              display: inline-block;
+              text-decoration: none;
+              text-transform: uppercase;
+              margin: 10px 0 30px 0;
+              width:45vw;
+              cursor: pointer;
+              display:none
+          
+          }
+          .movie-flip:hover:after {
+              opacity: 1;
+              transform: translateY(0) rotateX(0);
+          }
+          .movie-flip:hover:before {
+              opacity: 0;
+              transform: translateY(50%) rotateX(90deg);
+          }
+          .movie-flip:after {
+              top: 0;
+              left: 0;
+              opacity: 0;
+              width: 100%;
+              color: #323237;
+              display: block;
+              transition: 0.5s;
+              position: absolute;
+              background: #adadaf;
+              content: attr(data-back);
+              transform: translateY(-50%) rotateX(90deg);
+          }
+          .movie-flip:before {
+              top: 0;
+              left: 0;
+              opacity: 1;
+              color: #adadaf;
+              display: block;
+              padding: 0 ;
+              line-height: 40px;
+              transition: 0.5s;
+              position: relative;
+              background: #323237;
+              content: attr(data-front);
+              transform: translateY(0) rotateX(0);
+              
+          }
+  }
